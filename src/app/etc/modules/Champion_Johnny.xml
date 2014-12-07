@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Champion_Johnny>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends></depends>
+        </Champion_Johnny>
+    </modules>
+</config>

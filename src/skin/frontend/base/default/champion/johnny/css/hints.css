@@ -1,0 +1,32 @@
+.tpl-hint {
+    position: relative;
+    padding-top: 20px;
+}
+
+.tpl-hint .template-hint-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.tpl-hint .template-hint-header .block-name {
+    float: left;
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 2px 5px;
+    font: 11px Arial;
+}
+
+.tpl-hint.cached .template-hint-header .block-name {
+    background: green;
+}
+
+.tpl-hint.implicitlycached .template-hint-header .block-name {
+    background: orange;
+}
+
+.hint-iframe {
+    display: none;
+}

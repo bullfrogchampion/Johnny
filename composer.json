@@ -1,0 +1,16 @@
+{
+    "name": "Champion/Johnny",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Custom Renderer for the excellent AOE TemplateHints extension created for Johnny.",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "aoepeople/aoe_templatehints": "*"
+    },
+    "authors":[
+        {
+            "name":"Jeremy Champion",
+            "email":"bullfrogchampion@gmail.com"
+        }
+    ]
+}

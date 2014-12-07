@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Champion_Johnny>
+            <version>1.0.0</version>
+        </Champion_Johnny>
+    </modules>
+    <global>
+        <helpers>
+            <champion_johnny>
+                <class>Champion_Johnny_Helper</class>
+            </champion_johnny>
+        </helpers>
+        <models>
+            <champion_johnny>
+                <class>Champion_Johnny_Model</class>
+            </champion_johnny>
+        </models>
+        <events>
+            <aoetemplatehints_hintrenderer_options>
+                <observers>
+                    <champion_johnny>
+                        <class>Champion_Johnny_Model_Observer</class>
+                        <method>addRendererOption</method>
+                    </champion_johnny>
+                </observers>
+            </aoetemplatehints_hintrenderer_options>
+        </events>
+    </global>
+</config>

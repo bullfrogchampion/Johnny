@@ -1,0 +1,4 @@
+src/app/code/community/Champion/Johnny          app/code/community/Champion/Johnny
+src/app/etc/modules/*                           app/etc/modules/
+src/skin/frontend/base/default/champion/johnny  skin/frontend/base/default/champion/johnny
+src/skin/frontend/base/default/champion/johnny  skin/adminhtml/default/default/champion/johnny
